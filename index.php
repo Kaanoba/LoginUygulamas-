@@ -1,7 +1,5 @@
 <?php
-    if(!($_POST['submit'])){
-        header('Location:login.php');
-    }
+
 
     require 'insert.php';
 ?>
@@ -18,6 +16,6 @@
     <title>Document</title>
 </head>
 <body>
-     Hoşgeldin <?php $insert['k_adi']?>
+     Hoşgeldin
 </body>
 </html>
