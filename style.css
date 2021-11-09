@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+display: flex;
+}
+
+.login{
+    width: 400px;
+    height: 250px;
+    background-color: #ddd;
+    border-radius: 25px;
+    margin: auto;
+}
+header{
+    padding: 20px;
+}
+header a{
+    margin-right: 20px;
+    margin-left: 20px;
+    color: black;
+    border: 1px solid white;
+    border-radius:20px;
+    padding: 8px 20px;
+    text-decoration: none;
+}
+form{
+    padding: 20px;
+}
+label{
+    display: block;
+}
+input{
+    width: 90%;
+    padding: 8px 20px;
+    border-radius: 15px;
+    border: none;
+    margin: 5px;
+}
+.register{
+    width: 400px;
+    height: 350px;
+    border-radius: 15px;
+    background-color: #ddd;
+    margin: auto;
+}
+.login2{
+    width: 400px;
+    background-color: #ddd;
+    border-radius: 25px;
+
+}
+.login2 label{
+    margin: 10px 0 10px 0;
+}
+
